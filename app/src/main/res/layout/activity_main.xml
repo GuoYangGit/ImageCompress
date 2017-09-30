@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/before_compression_iv"
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/before_compression_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="压缩前"/>
+        <Button
+            android:id="@+id/compress_choose_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择图片"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/after_compression_iv"
+            android:layout_width="150dp"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/after_compression_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="压缩后"/>
+        <Button
+            android:id="@+id/compress_start_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="压缩"/>
+    </LinearLayout>
+</LinearLayout>
